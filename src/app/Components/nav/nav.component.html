@@ -1,0 +1,73 @@
+<div class="nav-body">
+
+    <div class="nav-brand mb-3">
+
+
+        <a href="#">
+            <img src="../../assets/images/logo.png" alt="logo" width="185px">
+        </a>
+
+    </div>
+
+    <div class="d-flex">
+        <ul ngbNav #nav="ngbNav" class="nav-tabs justify-content-center" orientation="vertical"
+            (activeIdChange)="activeChanged($event)">
+
+
+
+            <li ngbNavItem="/dashboard">
+                <a ngbNavLink routerLink="/dashboard" class="nav-link">
+                    <div class="nav-icon"></div>
+                    <div class="nav-text">Dashboard</div>
+                </a>
+                <ng-template ngbNavContent>
+                    <!-- <app-features></app-features> -->
+                </ng-template>
+            </li>
+
+            <li ngbNavItem="/employees">
+                <a ngbNavLink routerLink="/employees" class="nav-link">
+                    <div class="nav-icon"></div>
+                    <div class="nav-text">Employees</div>
+                </a>
+                <ng-template ngbNavContent>
+                    <!-- <app-pricing></app-pricing> -->
+                </ng-template>
+            </li>
+
+            <li ngbNavItem='reports'>
+                <a ngbNavLink routerLink="/reports" class="nav-link">
+                    <div class="nav-icon"></div>
+                    <div class="nav-text">Reports</div>
+                </a>
+                <ng-template ngbNavContent>
+                    <!-- <app-pricing></app-pricing> -->
+                </ng-template>
+            </li>
+
+            <li ngbNavItem="verifers">
+                <a ngbNavLink routerLink="/verifers" class="nav-link">
+                    <div class="nav-icon"></div>
+                    <div class="nav-text">Verifers</div>
+                </a>
+                <ng-template ngbNavContent>
+                    <!-- <app-pricing></app-pricing> -->
+                </ng-template>
+            </li>
+
+            <li ngbNavItem='admin'>
+                <a ngbNavLink routerLink="/admin" class="nav-link">
+                    <div class="nav-icon"></div>
+                    <div class="nav-text">Admin</div>
+                </a>
+                <ng-template ngbNavContent>
+                    <!-- <app-pricing></app-pricing> -->
+                </ng-template>
+            </li>
+
+
+
+        </ul>
+
+    </div>
+</div>

@@ -1,0 +1,64 @@
+.nav-tabs {
+  background-color: rgb(8, 27, 47);
+  border: none;
+  width: 250px;
+}
+
+.nav-body {
+  background-color: rgb(8, 27, 47);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  z-index: 1000;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: 0.5s;
+}
+.nav-brand {
+  padding: 10px;
+  display: block;
+  transition: 0.3s;
+}
+
+.nav-link {
+  /* display: block; */
+  color: rgb(8, 10, 10);
+  border: none;
+}
+
+.nav-icon {
+  /* fixlater */
+}
+
+.nav-text {
+  margin-left: auto;
+  margin-right: auto;
+  /* color text-muted /grey */
+  color: rgb(84, 101, 121);
+}
+
+.nav-link:hover {
+  background-color: rgb(19, 40, 62);
+}
+
+.nav-link.active {
+  background-color: rgb(9, 19, 30);
+
+  color: #fff;
+  border-left: 4px solid #4caf50;
+  border-radius: 0;
+}
+
+.nav-link.active .nav-icon {
+  color: #fff;
+}
+
+.nav-link.active .nav-text {
+  color: #fff;
+}
+
+.nav-link.active:hover {
+  background-color: rgb(39, 56, 75);
+}
