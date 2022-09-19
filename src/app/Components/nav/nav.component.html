@@ -10,15 +10,14 @@
     </div>
 
     <div class="d-flex">
-        <ul ngbNav #nav="ngbNav" class="nav-tabs justify-content-center" orientation="vertical"
-            (activeIdChange)="activeChanged($event)">
+        <ul ngbNav #nav="ngbNav" class="nav-tabs justify-content-center" orientation="vertical">
 
 
 
             <li ngbNavItem="/dashboard">
                 <a ngbNavLink routerLink="/dashboard" class="nav-link">
-                    <div class="nav-icon"></div>
-                    <div class="nav-text">Dashboard</div>
+
+                    <div class="nav-text"><i class="bi bi-graph-down"></i> Dashboard</div>
                 </a>
                 <ng-template ngbNavContent>
                     <!-- <app-features></app-features> -->
@@ -27,8 +26,8 @@
 
             <li ngbNavItem="/employees">
                 <a ngbNavLink routerLink="/employees" class="nav-link">
-                    <div class="nav-icon"></div>
-                    <div class="nav-text">Employees</div>
+
+                    <div class="nav-text"><i class="bi bi-person"></i> Employees</div>
                 </a>
                 <ng-template ngbNavContent>
                     <!-- <app-pricing></app-pricing> -->
@@ -37,8 +36,8 @@
 
             <li ngbNavItem='reports'>
                 <a ngbNavLink routerLink="/reports" class="nav-link">
-                    <div class="nav-icon"></div>
-                    <div class="nav-text">Reports</div>
+
+                    <div class="nav-text"><i class="bi bi-card-text"></i> Reports</div>
                 </a>
                 <ng-template ngbNavContent>
                     <!-- <app-pricing></app-pricing> -->
@@ -47,8 +46,8 @@
 
             <li ngbNavItem="verifers">
                 <a ngbNavLink routerLink="/verifers" class="nav-link">
-                    <div class="nav-icon"></div>
-                    <div class="nav-text">Verifers</div>
+
+                    <div class="nav-text"><i class="bi bi-clipboard2-check"></i> Verifers</div>
                 </a>
                 <ng-template ngbNavContent>
                     <!-- <app-pricing></app-pricing> -->
@@ -57,8 +56,8 @@
 
             <li ngbNavItem='admin'>
                 <a ngbNavLink routerLink="/admin" class="nav-link">
-                    <div class="nav-icon"></div>
-                    <div class="nav-text">Admin</div>
+
+                    <div class="nav-text"><i class="bi bi-person-badge"></i> Admin</div>
                 </a>
                 <ng-template ngbNavContent>
                     <!-- <app-pricing></app-pricing> -->

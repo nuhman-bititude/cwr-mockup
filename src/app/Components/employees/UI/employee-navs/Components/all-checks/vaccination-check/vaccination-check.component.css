@@ -1,0 +1,98 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.header {
+  max-width: 100%;
+  width: 100vw;
+  height: 11.5rem;
+  background-color: rgb(8, 27, 47);
+}
+
+.back {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.bi-arrow-left {
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.profile-image-rounded {
+  display: inline;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  margin-left: 5px;
+  margin-top: 15px;
+  justify-content: baseline;
+  justify-items: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 0%;
+}
+
+.employee-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 4.1rem;
+}
+
+.bi-dot {
+  color: #fff;
+  font-size: 1rem;
+  align-self: start;
+  margin: 0 5px;
+}
+
+.profile {
+  display: inline-flex;
+  margin-top: 0%;
+}
+
+.header-logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.bi-hospital {
+  font-size: 7.5rem;
+  margin-right: 2rem;
+  opacity: 0.1;
+  color: #6c757d;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-left: 4.1rem;
+  margin-right: 4.1rem;
+  align-items: baseline;
+  align-self: start;
+  justify-items: center;
+  justify-content: center;
+}
+button {
+  color: #fff;
+}

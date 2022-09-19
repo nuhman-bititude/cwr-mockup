@@ -1,3 +1,4 @@
+import { VaccinationCheckComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/vaccination-check.component';
 import { DocumentsComponent } from './Components/employees/UI/employee-navs/Components/documents/documents.component';
 import { NotesComponent } from './Components/employees/UI/employee-navs/Components/notes/notes.component';
 import { CommunicationsComponent } from './Components/employees/UI/employee-navs/Components/communications/communications.component';
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'reports', component: ReportsComponent },
   { path: 'verifers', component: VerifersComponent },
   { path: 'admin', component: AdminComponent },
+  { path: 'add-vaccinaion', component: VaccinationCheckComponent },
 ];
 
 @NgModule({
