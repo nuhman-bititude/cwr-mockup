@@ -1,0 +1,107 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.profile-body {
+  display: inline-flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.back {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.bi-arrow-left {
+  display: inline;
+  font-size: 20px;
+  color: #fff;
+}
+
+.profile-image-rounded {
+  display: inline;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  margin-left: 5px;
+  justify-content: baseline;
+  justify-items: baseline;
+  align-items: baseline;
+  align-content: baseline;
+  align-items: center;
+}
+
+.profile-section {
+}
+
+.profille-name {
+  display: inline;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.profile-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0%;
+}
+
+.job-title {
+  display: flex;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 76px;
+  margin-top: 0px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.actions-button {
+  display: inline;
+  font-size: 15px;
+  color: #fff;
+  border-color: rgb(61, 71, 92);
+  margin-left: 10px;
+}
+
+.button-text {
+  display: inline-flex;
+}
+
+.profile-desciption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 0%;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border: solid rgb(61, 71, 92) 1px;
+  border-radius: 6px;
+  padding: 0.3rem;
+  /* color rgb(); */
+  color: #fff;
+}
+
+tr {
+  font-size: 13px;
+  /* center all contents */
+  text-align: left;
+  position: relative;
+}
+
+td {
+  padding: 0.3rem;
+}

@@ -1,11 +1,9 @@
 .sidebar {
   /* background-color: rgb(19, 40, 62); */
   background-color: rgb(8, 27, 47);
-  height: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
   position: fixed;
-  float: left;
-  top: 0;
-  left: 0;
   width: 250px;
   z-index: 1000;
   overflow-x: hidden;
@@ -14,17 +12,23 @@
 }
 
 .router-outlet {
-  display: inline-block;
-  position: fixed;
-  margin-left: 250px;
-  width: 100%;
-  height: 100%;
   background-color: rgb(20, 40, 60);
+  margin-left: 250px;
+  max-width: 100vw;
+  max-height: 100vh;
+  padding: 0;
+
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
-.app-main {
+.app-parent {
   background-color: rgb(20, 40, 60);
+  display: flex;
   width: 100vw;
   height: 100vh;
-  /* margin-left: 250px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }

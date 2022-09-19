@@ -1,0 +1,34 @@
+<div class="employee-nav-body container">
+    <div class="navs">
+        <div class="nav-links ">
+            <a (click)="AllChecks()" class="nav-link ">
+                <div class="nav-link-text ">
+                    All Checks
+                </div>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a (click)="Communications()" routerLinkActive="active" class="nav-link">
+                <div class="nav-link-text">
+                    Communications
+                </div>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a (click)="Notes()" routerLinkActive="active" class="nav-link">
+                <div class="nav-link-text">
+                    Notes
+                </div>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a (click)="Documents()" routerLinkActive="active" class="nav-link">
+                <div class="nav-link-text">
+                    Documents
+                </div>
+            </a>
+        </div>
+    </div>
+    <hr class="hr">
+    <router-outlet></router-outlet>
+</div>
