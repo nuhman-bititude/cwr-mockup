@@ -1,0 +1,128 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+.automated-check-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.title-body {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 2.8rem;
+}
+.title {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-title {
+  font-size: 16px;
+  font-weight: 300;
+  color: #6c757d;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1.1rem;
+}
+
+.upload-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-top: 0rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='10' ry='10' stroke='grey' opacity='0.2' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='72' stroke-linecap='square'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 75%;
+  height: 750%;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: copy;
+
+  border-color: #6c757d;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box-input {
+  justify-content: center;
+  align-items: center;
+}
+.upload-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bi-cloud-upload {
+  font-size: 2.5rem;
+  color: #6c757d;
+}
+
+.upload-title {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 1rem;
+  padding-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+::-webkit-file-upload-button {
+  display: none;
+}
+
+.form-control {
+}
+
+.hr {
+  width: 70%;
+  margin-top: 1.2rem;
+  height: 20px;
+  border-bottom: 1px solid #6c757d;
+  text-align: center;
+}
+
+.hr-text {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  background-color: rgb(21, 39, 60);
+}
+
+input[type="file"] {
+  opacity: 0;
+}

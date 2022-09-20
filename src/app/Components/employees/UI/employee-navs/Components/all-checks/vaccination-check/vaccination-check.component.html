@@ -27,9 +27,25 @@
     </div>
     <div class="header-logo"><i class="bi bi-hospital"></i></div>
 
-    <div class="buttons">
-        <div class="evidence-button"><button class="btn">Evidence</button></div>
-        <div class="submit-check-button"><button class="btn">Submit check</button></div>
+    <div class="buttons ">
+        <div class="evidence-button active-now ">
+            <button class="btn">
+                <i class="bi bi-dot pending-dot evidence-pending"></i>
+                <i class="bi bi-check2-all evidence-complete"></i>
+                Evidence
+            </button>
+        </div>
+        <div class="submit-check-button now">
+            <button class="btn ">
+                <i class="bi bi-dot pending-dot submit-pending"></i>
+                <i class="bi bi-check2-all submit-complete"></i>
+                Submit check
+            </button>
+        </div>
     </div>
 
+</div>
+
+<div class="app-evidence-section">
+    <app-add-evidence></app-add-evidence>
 </div>

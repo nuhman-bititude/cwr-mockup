@@ -23,6 +23,10 @@ import { RsaCheckComponent } from './Components/employees/UI/employee-navs/Compo
 import { PoliceCheckComponent } from './Components/employees/UI/employee-navs/Components/all-checks/police-check/police-check.component';
 import { WorkingWithChildrenCheckComponent } from './Components/employees/UI/employee-navs/Components/all-checks/working-with-children-check/working-with-children-check.component';
 import { StudyEntitlementCheckComponent } from './Components/employees/UI/employee-navs/Components/all-checks/study-entitlement-check/study-entitlement-check.component';
+import { AddEvidenceComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/add-evidence.component';
+import { SubmitCheckComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/submit-check/submit-check.component';
+import { AutomatedCheckComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/automated-check/automated-check.component';
+import { ManualCheckComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/manual-check.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +50,10 @@ import { StudyEntitlementCheckComponent } from './Components/employees/UI/employ
     PoliceCheckComponent,
     WorkingWithChildrenCheckComponent,
     StudyEntitlementCheckComponent,
+    AddEvidenceComponent,
+    SubmitCheckComponent,
+    AutomatedCheckComponent,
+    ManualCheckComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
