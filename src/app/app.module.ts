@@ -30,10 +30,12 @@ import { ManualCheckComponent } from './Components/employees/UI/employee-navs/Co
 import { PartlyVaccinatedComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/partly-vaccinated/partly-vaccinated.component';
 import { MedicalExemptionComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/medical-exemption/medical-exemption.component';
 import { PersonalObjectionComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/personal-objection/personal-objection.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
+
     NavComponent,
     DashboardComponent,
     EmployeesComponent,
@@ -61,7 +63,7 @@ import { PersonalObjectionComponent } from './Components/employees/UI/employee-n
     MedicalExemptionComponent,
     PersonalObjectionComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

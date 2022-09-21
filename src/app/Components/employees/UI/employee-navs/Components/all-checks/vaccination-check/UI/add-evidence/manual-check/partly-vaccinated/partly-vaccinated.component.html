@@ -8,13 +8,13 @@
     <div class="header-2">
         Vaccination date and sceheduled date
     </div>
-    <form action="" #form novalidate>
+    <form (ngSubmit)="AddVaccination(form)" #form="ngForm">
         <div class="sub-title-2 text-muted">
             1st. Dose Vaccination Date
         </div>
         <div class="row">
-            <input type="number" name="day" placeholder="Day" required>
-            <select name="month" required>
+            <input type="number" name="firstDoseDay" placeholder="Day" ngModel required>
+            <select name="firstDoseMonth" ngModel required>
                 <option value="" disabled selected hidden>
                     Month
                 </option>
@@ -32,15 +32,15 @@
                 <option value="December">December</option>
 
             </select>
-            <input type="number" placeholder="Year" required>
+            <input type="number" name="firstDoseYear" placeholder="Year" ngModel required>
 
         </div>
         <div class="sub-title-2 text-muted">
             2nd. Dose Vaccination Date
         </div>
         <div class="row">
-            <input type="number" placeholder="Day" required>
-            <select name="month" required>
+            <input type="number" name="secondDoseDay" placeholder="Day" ngModel required>
+            <select name="secondDoseMonth" required ngModel>
                 <option value="" disabled selected hidden>Month</option>
                 <option value="January">January</option>
                 <option value="February">February</option>
@@ -56,12 +56,12 @@
                 <option value="December">December</option>
 
             </select>
-            <input type="number" placeholder="Year" required>
+            <input type="number" name="secondDoseYear" placeholder="Year" ngModel required>
         </div>
         <div class=" back-next-buttons">
-            <button class="btn btn-back">Back</button>
+            <button type="button" class="btn btn-back" (click)="back()">Back</button>
 
-            <button class="btn btn-next" type="submit" onsubmit="AddVaccination(form)" [disabled]="!form">Next</button>
+            <button type="submit" class="btn btn-next" [disabled]="!form.valid">Next</button>
         </div>
     </form>
 

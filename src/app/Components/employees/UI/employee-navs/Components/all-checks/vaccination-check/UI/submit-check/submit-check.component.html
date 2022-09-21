@@ -1,1 +1,34 @@
-<p>submit-check works!</p>
+<div class="submit-check-body container">
+    <div *ngIf="timer" class="spinner">
+        <div class="loading">
+            <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="text">Just a Second</div>
+        <div class="sub-text text-muted">Please wait while we Initializing the check results</div>
+    </div>
+    <div *ngIf="!timer" class="vacctination-check-result">
+        <div class="header">
+            Partly Vaccinated
+        </div>
+        <div class="sub-title">
+            Vaccination Check results
+        </div>
+        <div class="result text-warning">
+            1st dose Vaccination Complted
+        </div>
+        <div class="section-2 row">
+
+            <div class="first-dose-date text-muted">
+                1st Dose Date
+            </div>
+            <div class="second-dose-date text-muted">
+                Scheduled 2nd Dose Date
+            </div>
+        </div>
+    </div>
+</div>

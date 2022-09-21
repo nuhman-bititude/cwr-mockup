@@ -70,21 +70,26 @@
 }
 
 .header-logo {
-  position: absolute;
+  /* position: absolute; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: -4rem;
+  margin-bottom: 0px;
   right: 0;
   top: 0;
   margin-top: 1rem;
   margin-right: 1rem;
-  overflow-y: auto;
 }
 
 .bi-hospital {
   font-size: 7.5rem;
-  margin-right: 2rem;
+  margin-left: -12rem;
   opacity: 0.1;
   color: #6c757d;
-  overflow-y: auto;
-  /* position: absolute; */
+  overflow-y: none;
+  overflow-x: none;
+  position: absolute;
 }
 
 .buttons {

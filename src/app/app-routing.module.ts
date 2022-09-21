@@ -14,6 +14,7 @@ import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { AdminComponent } from './Components/admin/admin.component';
 import { ReportsComponent } from './Components/reports/reports.component';
 import { VerifersComponent } from './Components/verifers/verifers.component';
+import { SubmitCheckComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/submit-check/submit-check.component';
 
 const routes: Routes = [
   {
@@ -52,6 +53,10 @@ const routes: Routes = [
       {
         path: 'add-personal-objection',
         component: PersonalObjectionComponent,
+      },
+      {
+        path: 'submit-evidence',
+        component: SubmitCheckComponent,
       },
     ],
   },
