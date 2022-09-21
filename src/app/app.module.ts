@@ -27,6 +27,9 @@ import { AddEvidenceComponent } from './Components/employees/UI/employee-navs/Co
 import { SubmitCheckComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/submit-check/submit-check.component';
 import { AutomatedCheckComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/automated-check/automated-check.component';
 import { ManualCheckComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/manual-check.component';
+import { PartlyVaccinatedComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/partly-vaccinated/partly-vaccinated.component';
+import { MedicalExemptionComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/medical-exemption/medical-exemption.component';
+import { PersonalObjectionComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/personal-objection/personal-objection.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +57,9 @@ import { ManualCheckComponent } from './Components/employees/UI/employee-navs/Co
     SubmitCheckComponent,
     AutomatedCheckComponent,
     ManualCheckComponent,
+    PartlyVaccinatedComponent,
+    MedicalExemptionComponent,
+    PersonalObjectionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

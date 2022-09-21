@@ -1,0 +1,165 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.partly-vaccinated-body {
+  padding: 5rem;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: 1rem;
+  margin-top: -1rem;
+}
+
+.sub-title {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 3.34rem;
+  margin-top: -1.9rem;
+}
+
+.header-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 2.8rem;
+  font-size: 1rem;
+  font-weight: 1100;
+  color: #fff;
+}
+.sub-title-2 {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 1.2rem;
+  margin-bottom: -0.9rem;
+}
+/* 69,84,98 */
+
+.bi-list-check {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+  background-color: rgb(69, 84, 98);
+  border-radius: 1rem;
+  padding: 0.4rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+input {
+  background: transparent;
+  border: 1px solid rgb(41, 61, 80);
+  border-radius: 0.25rem;
+  color: #fff;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 28%;
+}
+
+select {
+  background: transparent;
+  border: 1px solid rgb(41, 61, 80);
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  width: 25%;
+}
+
+select:required:invalid {
+  color: gray;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #ffffff;
+}
+
+select:focus {
+  outline: none;
+  border: 1px solid #ffffff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  margin-left: -2.1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.back-next-buttons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn-next {
+  background-color: rgb(0, 184, 137);
+  color: #000;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-next:hover {
+  background-color: rgb(41, 242, 192);
+  color: #000;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-back {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  background-color: rgb(41, 61, 80);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}

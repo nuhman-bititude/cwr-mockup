@@ -75,6 +75,7 @@
   top: 0;
   margin-top: 1rem;
   margin-right: 1rem;
+  overflow-y: auto;
 }
 
 .bi-hospital {
@@ -82,6 +83,8 @@
   margin-right: 2rem;
   opacity: 0.1;
   color: #6c757d;
+  overflow-y: auto;
+  /* position: absolute; */
 }
 
 .buttons {
