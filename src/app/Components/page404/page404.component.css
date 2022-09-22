@@ -1,0 +1,33 @@
+.page-body {
+  background-color: rgb(20, 40, 60);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-body h1 {
+  color: white;
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0;
+  animation: blink 1s infinite;
+  text-align: center;
+  cursor: pointer;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}

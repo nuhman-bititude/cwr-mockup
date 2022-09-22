@@ -1,3 +1,4 @@
+import { Page404Component } from './Components/page404/page404.component';
 import { PartlyVaccinatedComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/partly-vaccinated/partly-vaccinated.component';
 import { PersonalObjectionComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/personal-objection/personal-objection.component';
 import { MedicalExemptionComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/medical-exemption/medical-exemption.component';
@@ -60,6 +61,7 @@ const routes: Routes = [
       },
     ],
   },
+  { path: '**', pathMatch: 'full', component: Page404Component },
 ];
 
 @NgModule({

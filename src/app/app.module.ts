@@ -31,6 +31,7 @@ import { PartlyVaccinatedComponent } from './Components/employees/UI/employee-na
 import { MedicalExemptionComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/medical-exemption/medical-exemption.component';
 import { PersonalObjectionComponent } from './Components/employees/UI/employee-navs/Components/all-checks/vaccination-check/UI/add-evidence/manual-check/personal-objection/personal-objection.component';
 import { FormsModule } from '@angular/forms';
+import { Page404Component } from './Components/page404/page404.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { FormsModule } from '@angular/forms';
     PartlyVaccinatedComponent,
     MedicalExemptionComponent,
     PersonalObjectionComponent,
+    Page404Component,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, FormsModule],
   providers: [],
