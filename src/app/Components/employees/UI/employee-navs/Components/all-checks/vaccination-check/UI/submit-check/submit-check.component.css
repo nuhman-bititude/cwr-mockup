@@ -86,66 +86,99 @@
   height: 100%;
   border-radius: 10px;
   padding: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-top: 3rem;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-table {
-  border: 1px solid #6c757d;
-
-  border-collapse: collapse;
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.heading {
-  font-size: 1.7rem;
-  font-weight: 400;
-  padding: 0.4rem;
-  width: 100%;
+.header {
+  background-color: #ffc107;
   color: #000;
-  /* background-color: yellow; */
-}
-
-td {
-  width: 100%;
-}
-
-th {
-  width: 100%;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: start;
+  padding: 0.4rem;
+  border: 1px solid #6c757d;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: none;
+  overflow: hidden;
+  width: 65%;
 }
 
 .sub-title {
   font-size: 0.8rem;
   font-weight: 400;
   padding: 0.4rem;
+  text-align: start;
+  border: 1px solid #6c757d;
+  overflow: hidden;
+  border-bottom: none;
+  width: 65%;
 }
 
 .result {
-  font-size: 1.3rem;
-  font-weight: 400;
+  font-size: 0.9rem;
+  font-weight: 600;
   padding: 0.4rem;
+  text-align: start;
+  border-left: 1px solid #6c757d;
+  border-right: 1px solid #6c757d;
+  border-bottom: 1px solid #6c757d;
+  overflow: hidden;
+  margin-top: -0.9rem;
+  width: 65%;
 }
 
 .date {
-  font-size: 0.8rem;
-  font-weight: 400;
-  color: #fff;
-  padding: 0.4rem;
+  /* padding: 0.4rem; */
+  text-align: start;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 65%;
 }
 
-.first-dose-date .second-dose-date {
-  display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 400;
-  color: #fff;
+.first-dose-date,
+.second-dose-date {
+  font-size: 0.7rem;
+  font-weight: 300;
   padding: 0.4rem;
+  text-align: start;
+  overflow: hidden;
+  margin-top: -0.3rem;
+  width: 65%;
+}
+
+.first-dose-date {
+  border-left: 1px solid #6c757d;
+}
+
+.second-dose-date {
+  border-right: 1px solid #6c757d;
+}
+
+.first-date,
+.second-date {
+  font-size: 0.7rem;
+  font-weight: 300;
+  padding: 0.4rem;
+  color: #fff;
+  text-align: start;
+  overflow: hidden;
+  margin-top: -0.1rem;
+  margin-bottom: 0.1rem;
+  width: 65%;
+  border-bottom: 1px solid #6c757d;
+}
+
+.first-date {
+  border-left: 1px solid #6c757d;
+  border-bottom-left-radius: 5px;
+}
+
+.second-date {
+  border-right: 1px solid #6c757d;
+  border-bottom-right-radius: 5px;
 }
