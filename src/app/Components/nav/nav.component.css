@@ -25,19 +25,13 @@
 }
 
 .nav-link {
-  /* display: block; */
   color: rgb(8, 10, 10);
   border: none;
-}
-
-.nav-icon {
-  /* fixlater */
 }
 
 .nav-text {
   margin-left: auto;
   margin-right: auto;
-  /* color text-muted /grey */
   color: rgb(84, 101, 121);
 }
 
@@ -52,11 +46,13 @@
   border-radius: 0;
 }
 
-.nav-link.active .nav-icon {
+.nav-link.active,
+.nav-icon {
   color: #fff;
 }
 
-.nav-link.active .nav-text {
+.nav-link.active,
+.nav-text {
   color: #fff;
 }
 

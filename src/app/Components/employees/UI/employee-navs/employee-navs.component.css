@@ -25,11 +25,7 @@
   margin-bottom: 0%;
 }
 
-.nav-link-text:active {
-  color: rgb(0, 153, 119);
-  border-bottom: 2px solid rgb(0, 153, 119);
-}
-
+.nav-link-text:active,
 .nav-link-text:hover {
   color: rgb(0, 153, 119);
   border-bottom: 2px solid rgb(0, 153, 119);

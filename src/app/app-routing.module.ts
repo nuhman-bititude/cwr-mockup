@@ -61,6 +61,7 @@ const routes: Routes = [
       },
     ],
   },
+  { path: '', pathMatch: 'prefix', redirectTo: 'dashboard' },
   { path: '**', pathMatch: 'full', component: Page404Component },
 ];
 

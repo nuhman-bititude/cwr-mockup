@@ -70,7 +70,6 @@
 }
 
 .header-logo {
-  /* position: absolute; */
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -122,10 +121,7 @@ button {
   margin-left: auto;
 }
 
-.active-now {
-  background-color: rgb(5, 42, 56);
-}
-
+.active-now,
 .now {
   background-color: rgb(5, 42, 56);
 }
@@ -153,15 +149,9 @@ button {
   padding: 0.5rem 1rem;
 }
 
-.pending-dot {
-  color: rgb(1, 106, 107);
-  font-size: 15px;
-  align-self: start;
-  margin: 0 5px;
-}
-
+.pending-dot,
 .bi-check2-all {
-  color: rgb(1, 107, 52);
+  color: rgb(1, 106, 107);
   font-size: 15px;
   align-self: start;
   margin: 0 5px;
